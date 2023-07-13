@@ -1,0 +1,22 @@
+Package: TheoChemR
+Type: Package
+Title: TheoChemR
+Version: 0.0.2
+Date: 2023-07-13
+Authors@R: c(
+    person("Robert", "Geitner", email = "robert.geitner@tu-ilmenau.de", role = c("cre", "aut")))
+Description: The TheoChemR package provides a collection of useful functions
+  when working with output from quantum chemical calculations, mainly provided
+  by Gaussian and to a lesser extend by ORCA. The main idea is to read in
+  important sections of the output file for further processing and analysis in R.
+Imports:
+    PeriodicTable,
+    dplyr,
+    gsubfn,
+    rlang,
+    stringr
+License: GPL-3
+RoxygenNote: 7.2.3
+Encoding: UTF-8
+Suggests: knitr,
+    rmarkdown
